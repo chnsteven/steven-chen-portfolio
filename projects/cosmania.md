@@ -1,8 +1,6 @@
 ---
 title: 'Cosmania'
-date: '2020-02' to '2023-05'
-project type: 'Personal project'
-skills: 'Unity, C#'
+date: '2023-02-15'
 ---
 
 - Self learned and developed a game in Unity that supports 5 minutes gameplay.
