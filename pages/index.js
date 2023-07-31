@@ -37,10 +37,12 @@ export default function Home({ allProjectsData }) {
                 <title>{siteTitle}</title>
             </Head>
             <section className={utilStyles.headingMd}>
-                <p>[Your Self Introduction]</p>
-                <p>
-                    Check out {' '} <a href="https://nextjs.org/learn">our Next.js tutorial</a>
-                </p>
+                <ul>
+                    <li>4 years of programming experience in University.</li>
+                    <li>4 years of part time work experience as a STEM Instructor at Robostorm Consulting Inc.</li>
+                    <li>Experience in C/C++, Python, Java/Javascript, Unity, C#.</li>
+                    <li>Knowledge in fundamental data structures and algorithm designs in software engineering.</li>
+                </ul>  
             </section>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Project</h2>
