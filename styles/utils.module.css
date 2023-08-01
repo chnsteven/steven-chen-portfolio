@@ -50,3 +50,20 @@
 .lightText {
     color: #666;
 }
+
+.lightText2 {
+    color: #454343;
+}
+
+.frame {
+    border: 3px solid #ccc;
+    background: #eee;
+    margin: auto;
+    padding: 15px 10px;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+}

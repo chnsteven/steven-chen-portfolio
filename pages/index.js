@@ -44,7 +44,7 @@ export default function Home({ allProjectsData }) {
                 </ul>  
             </section>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-                <h2 className={utilStyles.headingLg}>Project</h2>
+                <h2 className={utilStyles.headingLg}>Projects</h2>
                 <ul className={utilStyles.list}>
                     {allProjectsData.map(({ id, start_date, end_date, title }) => (
                         <li className={utilStyles.listItem} key={id}>

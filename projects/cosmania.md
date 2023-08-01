@@ -1,10 +1,10 @@
 ---
 title: 'Cosmania'
-date: '2023-02-15'
 start_date: '2023-02'
 end_date: '2023-05'
-excerpt: Web development project for CPSC 310 at University of British Columbia
+excerpt: Self development project
 cover_image: '/images/Cosmania/cover_image.png'
+video: "https://youtu.be/fBluPqf84Zs"
 ---
 
 - Self learned and developed a game in Unity that supports 5 minutes gameplay.

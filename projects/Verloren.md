@@ -1,8 +1,10 @@
 ---
 title: 'Verloren'
-date: '2023-02-15'
 start_date: '2023-01'
 end_date: '2023-04'
+excerpt: Game development project for CPSC 427 at University of British Columbia
+cover_image: '/images/Verloren/cover_image.png'
+video: 'https://youtu.be/fBluPqf84Zs'
 ---
 
 - Completed a 10 minutes adventure game in a team of 6.
