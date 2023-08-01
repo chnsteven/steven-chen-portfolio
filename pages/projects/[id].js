@@ -1,7 +1,7 @@
 import Layout from '../../components/layout';
 import { getAllProjectsIds, getProjectData } from '../../lib/projects';
 import Head from 'next/head';
-import Date from '../../components/date';
+import DateSpan from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
 import Image from 'next/image';
 
@@ -34,7 +34,7 @@ export default function Post({ projectData }) {
 
                 <h1 className={utilStyles.headingXl}>{projectData.title}</h1>
                 <div className={utilStyles.lightText}>
-                    <Date dateString={projectData.start_date}/> to <Date dateString={projectData.end_date}/>
+                    <DateSpan start={projectData.start_date} end={projectData.end_date}></DateSpan>
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
                 {projectData.cover_image && <img src={projectData.cover_image} alt='Screenshot of project overview' />}
