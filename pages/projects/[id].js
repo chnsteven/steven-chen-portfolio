@@ -51,6 +51,7 @@ export default function Post({ projectData }) {
                 <h2 className={utilStyles.headingMd}>
                     Video demo:
                 </h2>
+                <h4 className={utilStyles.lightText2}>({projectData.video_excerpt})</h4>
                 <div>
                     <YouTube videoId={getYoutubeVideoId(projectData.video)}/>
                 </div>
