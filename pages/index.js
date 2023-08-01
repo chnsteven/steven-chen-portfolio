@@ -5,7 +5,6 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedProjectsData } from '../lib/projects';
 import Link from 'next/link';
 import Date from '../components/date';
-
 export async function getStaticProps() {
     const allProjectsData = getSortedProjectsData();
     return {
@@ -52,7 +51,7 @@ export default function Home({ allProjectsData }) {
                             <Link href={`/projects/${id}`}>{title}</Link>
                             <br />
                             <small className={utilStyles.lightText}>
-                                <Date dateString={date} />
+                                {/* <Date dateString={date} /> */}
                             </small>
                         </li>
                     ))}

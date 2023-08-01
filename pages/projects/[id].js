@@ -3,6 +3,7 @@ import { getAllProjectsIds, getProjectData } from '../../lib/projects';
 import Head from 'next/head';
 import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
+import Image from 'next/image';
 
 
 export async function getStaticProps({ params }) {
@@ -30,11 +31,13 @@ export default function Post({ projectData }) {
                 <title>{projectData.title}</title>
             </Head>
             <article>
+
                 <h1 className={utilStyles.headingXl}>{projectData.title}</h1>
                 <div className={utilStyles.lightText}>
-                    <Date dateString={projectData.date} />
+                    <Date dateString={projectData.start_date}/> to <Date dateString={projectData.end_date}/>
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
+                {projectData.cover_image && <img src={projectData.cover_image} alt='Screenshot of project overview' />}
             </article>
         </Layout>
     );

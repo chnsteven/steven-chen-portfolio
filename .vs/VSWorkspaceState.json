@@ -1,13 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\components",
+    "\\lib",
     "\\pages",
-    "\\pages\\posts",
+    "\\pages\\api",
+    "\\pages\\projects",
+    "\\posts",
+    "\\projects",
     "\\public",
     "\\public\\images",
-    "\\styles"
+    "\\public\\images\\InsightUBC"
   ],
-  "SelectedNode": "\\components\\layout.js",
+  "SelectedNode": "\\pages\\projects\\[id].js",
   "PreviewInSolutionExplorer": false
 }

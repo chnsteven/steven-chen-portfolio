@@ -6,6 +6,7 @@ import Link from 'next/link';
 
 const name = 'Steven Chen';
 export const siteTitle = 'Steven Chen Portfolio';
+export const introduction = ''
 
 export default function Layout({ children, home }) {
     return (
