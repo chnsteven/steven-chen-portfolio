@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
+import styles from '../components/layout.module.css';
 //import { getSortedPostsData } from '../lib/posts';
 import { getSortedProjectsData } from '../lib/projects';
 import Link from 'next/link';
@@ -31,7 +32,7 @@ export async function getStaticProps() {
 //}
 export default function Home({ allProjectsData }) {
     return (
-     <Layout home>
+        <Layout home>
             <Head>
                 <title>{siteTitle}</title>
             </Head>
@@ -42,22 +43,27 @@ export default function Home({ allProjectsData }) {
                     <li>4 years of part time work experience as a STEM Instructor at Robostorm Consulting Inc.</li>
                     <li>Experience in C/C++, Python, Java/Javascript, Unity, C#.</li>
                     <li>Knowledge in fundamental data structures and algorithm designs in software engineering.</li>
-                </ul>  
+                </ul>
             </section>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Projects</h2>
                 <ul className={utilStyles.list}>
                     {allProjectsData.map(({ id, start_date, end_date, title }) => (
                         <li className={utilStyles.listItem} key={id}>
-                            <Link href={`/projects/${id}`}>{title}</Link>
+                            <Link href={`/projects/${id}`} 
+                            className={styles.span}>
+                                {title}
+                                <img src='images/link_icon.png' alt='Link Icon'
+                                    className={utilStyles.responsiveIcon}></img>
+                            </Link>
                             <br />
                             <small className={utilStyles.lightText}>
-                            <DateSpan start={start_date} end={end_date}></DateSpan>
+                                <DateSpan start={start_date} end={end_date}></DateSpan>
                             </small>
                         </li>
                     ))}
                 </ul>
             </section>
-            </Layout>
-  )
+        </Layout>
+    )
 }

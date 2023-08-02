@@ -67,3 +67,11 @@
     max-width: 1600px;
     height: auto;
 }
+
+.responsiveIcon {
+    display: inline-block;
+    width: 20%;
+    max-width: 20px;
+    height: auto;
+    margin-left: 5px;
+}
