@@ -12,4 +12,4 @@ video_excerpt: 'This video was made by my partner'
 - Practiced version control, code review, and TDD in Typescript.
 - Created 50+ unit/integration tests for black/glass box testing.
 - Written user stories and built a REST-API server that communicate with self implemented backend.
-- 150+ hours of overall development cycle .
+- 150+ hours of overall development cycle.
