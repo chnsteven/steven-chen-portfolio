@@ -27,17 +27,15 @@ export default function Layout({ children, home }) {
                 {/*<meta name="twitter:card" content="summary_large_image" />*/}
             </Head>
             <header className={styles.header}>
-                <>
-                    <Image
+                <div className={styles.profile}>
+                    <img
                         priority
                         src="/images/profile.jpg"
-                        className={`${utilStyles.profilePicture} ${styles.leftContent}`}
-                        height={44}
-                        width={44}
+                        className={styles.profilePicture}
                         alt=""
                     />
-                    <h1 className={`${utilStyles.headingMd} ${styles.rightContent}`}>{name}</h1>
-                </>
+                    <h1>{name}</h1>
+                </div>
             </header>
             <main>{children}</main>
             {!home && (
