@@ -8,8 +8,7 @@ video: "https://youtu.be/ZcUD4tmIc0k"
 video_excerpt: 'This video does not have audio'
 ---
 
-- Self learned and developed a game in Unity that supports 5 minutes gameplay.
-- Incorporated inkle in Unity to build a story system.
-- Implemented most game object interactions with delegates and events.
-- Created 2-3 cutscenes with simple timelines and animations for basic characters.
-- Most gameobjects were made with Unity built-in geometries. (No external packages used)
+- Self-taught Unity and C#, then developed a horror game that provides 5 minutes of non-repetitive gameplay.
+- Integrated inkle into Unity to create a complex story system that allows players to make choices from multiple options.
+- Resolved coupling and cohesion issues by implementing delegates and events for interactions among various game objects.
+- Designed 2-4 cutscenes using Cinemachine timeline, incorporating character and camera movements.

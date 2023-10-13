@@ -5,12 +5,9 @@
     "\\pages",
     "\\pages\\api",
     "\\pages\\projects",
-    "\\posts",
-    "\\projects",
-    "\\public",
     "\\public\\images",
     "\\public\\images\\InsightUBC"
   ],
-  "SelectedNode": "\\pages\\projects\\[id].js",
+  "SelectedNode": "\\pages\\index.js",
   "PreviewInSolutionExplorer": false
 }

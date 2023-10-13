@@ -8,8 +8,7 @@ video: 'https://youtu.be/ouTDd7njgWA'
 video_excerpt: 'This video has audio'
 ---
 
-- Completed a 10 minutes adventure game in a team of 6.
-- Documented progress and code review on weekly basis.
-- Designed character assets and enemy logics.
-- Highly rated during final game jams.
-- Implemented ECS (Entity component system) using C++ and documented component relationships with a UML diagram.
+Completed a 10-minute adventure game with a team of 6 using ECS in C++.
+Implemented text, shadow rendering using OpenGL, a Physics system, and a particle system.
+Documented progress and conducted a code review on a weekly basis.
+Designed character assets using drawing tools and implemented enemy logic with A* search algorithm and behavior trees.
