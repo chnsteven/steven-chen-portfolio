@@ -4,10 +4,8 @@
     "\\lib",
     "\\pages",
     "\\pages\\api",
-    "\\pages\\projects",
-    "\\public\\images",
-    "\\public\\images\\InsightUBC"
+    "\\pages\\projects"
   ],
-  "SelectedNode": "\\pages\\index.js",
+  "SelectedNode": "\\pages",
   "PreviewInSolutionExplorer": false
 }
