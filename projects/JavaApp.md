@@ -1,5 +1,5 @@
 ---
-title: 'Cosmania'
+title: 'Java Application'
 start_date: '2019-09'
 end_date: '2019-12'
 excerpt: Application developed for CPSC 210 at University of British Columbia
